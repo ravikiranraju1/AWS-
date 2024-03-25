@@ -1,0 +1,55 @@
+                                                                    VPC (virtual private cloud)
+
+•	A VPC is a virtual network that you create in the cloud. It allows you to have your own private section of the internet, just like having your own network within a larger network.
+•	Within this VPC, you can create and manage various resources, such as servers, databases, and storage.
+•	VPC has its own set of rules and configurations.
+
+Subnets:
+•	 You can define the IP address range for your VPC and create smaller subnetworks within it called subnets. 
+•	These subnets help you organize your resources and control how they communicate with each other.
+
+Types of subnets
+•	Public subnet
+•	Private subnet
+
+Gateways and routers:
+•	To connect your VPC to the internet or other networks, you can set up gateways or routers.
+•	These act as entry and exit points for traffic going in and out of your VPC. 
+•	You can control the flow of traffic and set up security measures to protect your resources from unauthorized access.
+ 
+
+Your AWS account includes a default VPC in each AWS Region. Your default VPCs are configured such that you can immediately start launching and connecting to EC2 instances.
+
+
+Features:
+The following features help you configure a VPC to provide the connectivity that your applications need:
+
+1.	Virtual private clouds (VPC)
+   	A VPC is a virtual network that closely resembles a traditional network that you'd operate in your own data center. After you create a VPC, you can add subnets.
+
+2.	Subnets
+    A subnet is a range of IP addresses in your VPC. A subnet must reside in a single Availability Zone. After you add subnets, you can deploy AWS resources in your VPC.
+
+3.	IP addressing
+    You can assign IP addresses, both IPv4 and IPv6, to your VPCs and subnets. You can also bring your public IPv4 addresses and IPv6 GUA addresses to AWS and allocate them to resources in your VPC, such as EC2 instances, NAT gateways, and Network Load Balancers.
+
+4.	Routing
+    Use route tables to determine where network traffic from your subnet or gateway is directed.
+
+5.	Gateways and endpoints
+    A gateway connects your VPC to another network. For example, use an internet gateway to connect your VPC to the internet. Use a VPC endpoint to connect to AWS services privately, without the use of an internet gateway or NAT device.
+
+6.	Peering connections
+    Use a VPC peering connection to route traffic between the resources in two VPCs.
+
+7.	Traffic Mirroring
+    Copy network traffic from network interfaces and send it to security and monitoring appliances for deep packet inspection.
+
+8.	Transit gateways
+    Use a transit gateway, which acts as a central hub, to route traffic between your VPCs, VPN connections, and AWS Direct Connect connections.
+
+9.	VPC Flow Logs
+    A flow log captures information about the IP traffic going to and from network interfaces in your VPC.
+
+10.	VPN connections
+    Connect your VPCs to your on-premises networks using AWS Virtual Private Network (AWS VPN).
