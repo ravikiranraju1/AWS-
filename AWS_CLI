@@ -1,0 +1,20 @@
+AWS Command Line Interface (CLI)
+The AWS Command Line Interface (CLI) is a unified tool provided by Amazon Web Services for managing AWS services and resources directly from the command line. It allows you to interact with AWS services using commands in your terminal or command prompt. Here's an overview of AWS CLI:
+
+1.	Installation:
+AWS CLI can be installed on various operating systems, including Windows, macOS, and Linux. You can install it using package managers like pip (Python Package Index), Homebrew, apt, or by downloading and installing the standalone installer.
+
+2.	Configuration:
+After installation, you need to configure the AWS CLI with your AWS credentials, including your Access Key ID and Secret Access Key. You can also configure default settings such as AWS region and output format (JSON, text, or table).
+
+3.	Usage:
+AWS CLI provides commands for interacting with a wide range of AWS services, such as EC2, S3, IAM, Lambda, RDS, and more. You can perform tasks like creating and managing resources, configuring security settings, deploying applications, and monitoring AWS services.
+
+4.	AWS Profiles:
+You can configure multiple profiles in the AWS CLI to manage different sets of credentials and settings for different projects or environments. This allows you to switch between profiles easily when working with multiple AWS accounts.
+
+5.	Automation and Scripting:
+AWS CLI is commonly used for automation and scripting tasks, allowing users to automate repetitive tasks, build scripts for managing infrastructure, and integrate AWS services into continuous integration/continuous deployment (CI/CD) pipelines.
+
+6.	Plugins and Extensions:
+AWS CLI supports plugins and extensions that provide additional functionality and integration with third-party tools and services.
