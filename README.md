@@ -1,1 +1,1 @@
-This repository is dedicated to all things about AWS (Amazon Web Services) which i collected while learning.
+Repo to learn about Amazon web services(AWS)
