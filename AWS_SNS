@@ -1,0 +1,11 @@
+Amazon Simple Notification Service (Amazon SNS) 
+It is a fully managed messaging service provided by Amazon Web Services (AWS). It enables you to send messages or notifications to a large number of subscribers or endpoints, including mobile devices, HTTP endpoints, email addresses, and more.
+
+Key features of Amazon SNS include:
+•	Pub/Sub Model: Amazon SNS follows a publish/subscribe model where publishers send messages to topics, and subscribers receive messages from topics they're interested in.
+•	Multiple Protocols: It supports various protocols for message delivery, including HTTP, HTTPS, email, SMS, and Amazon SQS (Simple Queue Service).
+•	Flexible Message Filtering: You can filter messages based on attributes, allowing subscribers to receive only the messages they're interested in.
+•	Reliable Delivery: Amazon SNS ensures high availability and message delivery reliability with built-in redundancy across multiple AWS Availability Zones.
+•	Integration with AWS Services: It seamlessly integrates with other AWS services like Amazon EC2, Lambda, S3, and more, enabling you to trigger notifications based on events in these services.
+•	Simple API: Amazon SNS provides a simple API that allows you to create, manage, and send notifications programmatically.
+•	Message Attributes: You can attach custom attributes to messages for additional context or filtering purposes.
