@@ -1,0 +1,17 @@
+CI/CD:
+CI/CD stands for Continuous Integration/Continuous Delivery (or Continuous Deployment), which is a software development practice aimed at automating the process of integrating code changes, testing them thoroughly, and delivering them to production environments quickly and reliably.
+
+AWS Services for CI/CD:
+These services form a comprehensive DevOps toolchain that enables teams to build, test, and deploy applications rapidly and reliably. They promote automation, collaboration, and best practices in software development and deployment, helping organizations deliver high-quality software with greater speed and efficiency.
+
+AWS CodeCommit:
+AWS CodeCommit is a fully managed source control service that hosts secure and scalable Git repositories. It provides private Git repositories for storing and managing source code, binaries, and other development assets securely in the AWS Cloud. CodeCommit supports standard Git commands and integrates with other AWS services, enabling seamless collaboration and version control for teams.
+
+AWS CodeBuild:
+AWS CodeBuild is a fully managed continuous integration service that compiles source code, runs tests, and produces software packages automatically. It allows you to build and test code in the cloud without needing to manage build servers or infrastructure. CodeBuild supports various programming languages, build tools, and frameworks, and integrates with CodeCommit, GitHub, and other source control services. It also supports custom build environments and Docker-based builds.
+
+AWS CodeDeploy:
+AWS CodeDeploy is a fully managed deployment service that automates software deployments to a variety of compute services such as EC2 instances, AWS Lambda functions, and on-premises servers. It enables you to deploy applications incrementally, with built-in rollback mechanisms and deployment health monitoring. CodeDeploy integrates with CodeCommit, CodeBuild, and other CI/CD tools, providing a seamless deployment pipeline for your applications.
+
+AWS CodePipeline:
+AWS CodePipeline is a fully managed continuous delivery service that orchestrates and automates the release process for your applications. It allows you to define and visualize the entire software release workflow, from source code to production deployment. CodePipeline integrates with CodeCommit, CodeBuild, CodeDeploy, and other AWS services, enabling you to create custom pipelines tailored to your specific requirements. It provides real-time feedback on the status of each pipeline stage and supports advanced features such as manual approvals and parallel execution.
