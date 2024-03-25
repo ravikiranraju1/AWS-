@@ -1,0 +1,32 @@
+IAM:
+AWS IAM (Identity and Access Management) is a service provided by Amazon Web Services (AWS) that helps you manage access to your AWS resources. It's like a security system for your AWS account.
+IAM allows you to create and manage users, groups, and roles. Users represent individual people or entities who need access to your AWS resources. Groups are collections of users with similar access requirements, making it easier to manage permissions. Roles are used to grant temporary access to external entities or services.
+With IAM, you can control and define permissions through policies. Policies are written in JSON format and specify what actions are allowed or denied on specific AWS resources. These policies can be attached to IAM entities (users, groups, or roles) to grant or restrict access to AWS services and resources.
+IAM follows the principle of least privilege, meaning users and entities are given only the necessary permissions required for their tasks, minimizing potential security risks. IAM also provides features like multi-factor authentication (MFA) for added security and an audit trail to track user activity and changes to permissions.
+By using AWS IAM, you can effectively manage and secure access to your AWS resources, ensuring that only authorized individuals have appropriate permissions and actions are logged for accountability and compliance purposes.
+Overall, IAM is an essential component of AWS security, providing granular control over access to your AWS account and resources, reducing the risk of unauthorized access and helping maintain a secure environment.
+
+Components of IAM
+•	Users: IAM users represent individual people or entities (such as applications or services) that interact with your AWS resources. Each user has a unique name and security credentials (password or access keys) used for authentication and access control.
+•	User Groups: IAM groups are collections of users with similar access requirements. Instead of managing permissions for each user individually, you can assign permissions to groups, making it easier to manage access control. Users can be added or removed from groups as needed.
+•	Roles: IAM roles are used to grant temporary access to AWS resources. Roles are typically used by applications or services that need to access AWS resources on behalf of users or other services. Roles have associated policies that define the permissions and actions allowed for the role.
+•	Policies: IAM policies are JSON documents that define permissions. Policies specify the actions that can be performed on AWS resources and the resources to which the actions apply. Policies can be attached to users, groups, or roles to control access. IAM provides both AWS managed policies (predefined policies maintained by AWS) and customer managed policies (policies created and managed by you).
+•	Identity providers: Identity provider (IdP) to manage your user identities outside of AWS, but grant the user identities permissions to use AWS resources in your account.
+•	Security Token Service (STS): STS is used to create and provide trusted users with temporary security credentials that can control access to your AWS resources which is present in IAM Account settings.
+•	Access Analyser: Analyser to monitor external and unused access for an organization or an individual account. 
+•	External access: Identify resources shared with an external entity
+•	Unused access: Identify IAM users and roles with unused access
+•	Credentials report: The credentials report lists all your IAM users in this account and the status of their various credentials. After a report is created, it is stored for up to four hours.
+
+For security credentials in IAM we use these services:
+•	MFA (Multi-Factor Authentication): Enable multi-factor authentication (MFA) for the root user to improve security for this account.
+•	Access keys: Use access keys to send programmatic calls to AWS from the AWS CLI, AWS Tools for PowerShell, AWS SDKs, or direct AWS API calls. You can have a maximum of two access keys (active or inactive) at a time.
+•	CloudFront key pairs: we use key pairs in Amazon CloudFront to create signed URLs. You can have a maximum of two CloudFront key pairs (active or inactive) at a time.
+•	X.509 Signing certificates: we Use X.509 certificates to make secure SOAP-protocol requests to some AWS services. You can have a maximum of two X.509 certificates (active or inactive) at a time.
+
+There are two services for organizations we create organization by using service named AWS organization. They are 
+•	Organization Activity
+•	Services control policies (SCP)
+•	IAM Identity center: IAM Identity center to provide console access to a person. With Identity Center, we can centrally manage user access to their AWS accounts and cloud applications.
+
+
